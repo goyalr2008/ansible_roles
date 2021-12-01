@@ -3,7 +3,7 @@
 
 - name: Create volume with performance policy
   register: result_vol    
-  dellemc_powerstore_volume:
+  dellemc.powerstore.dellemc_powerstore_volume:
     array_ip: "{{array_ip}}"
     verifycert: "{{verifycert}}"
     user: "{{user}}"
